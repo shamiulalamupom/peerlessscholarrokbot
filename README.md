@@ -36,6 +36,14 @@ DISCORD_API_KEY=<bot_token>
 
 #### • Save the `.env` file.
 
+#### • Now create a `qna_kfm.json` file that holds every question(lowercased and no space) and every answer(no changes) as key and value. An example has been given below.
+```bash
+{
+"ahumanfingernailismadeofwhichmaterial?": "Alpha-keratin",
+}
+```
+#### `N.B:` Enter every question and answer with a comma.
+
 #### • Now run the `main.py` file using python.
 ```bash
 > python main.py
